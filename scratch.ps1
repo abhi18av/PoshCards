@@ -1,18 +1,4 @@
 
-
-Get-ChildItem ./1_sorting -Hidden 
-
-
-get-help gci -System
-
-
-Get-ChildItem  ./1_sorting -Include *.txt -Exclude H*
-Get-ChildItem  ./1_sorting -Hidden  -Exclude *-.txt 
-
-
-
-
-
 <# 
 Regular Expressions
 
