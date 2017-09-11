@@ -18,25 +18,30 @@ Regular Expressions
 
  #>
 
- "Software" –match "soft"
+"Software" –match "soft"
 
- "Software" –cmatch "soft"
+"Software" –cmatch "soft"
 
 
- "Don" –match "D.n" 
- "Don" –match "D?n" 
+"Don" –match "D.n" 
+"Don" –match "D?n" 
 
- "DoDon" –match "Do*n" 
- "DoDon" -match "Do+n" 
+"DoDon" –match "Do*n" 
+"DoDon" -match "Do+n" 
 
- "Shell" -match "\w" 
- "Shell" -match "\w*" 
+"Shell" -match "\w" 
+"Shell" -match "\w*" 
  
- "Jeff" -match "J[aeiou]ff" 
- "Jeeeeeeeeeeff" -match "J[aeiou]ff" 
-
- "192.168.15.20" -match "\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}"
+"Jeff" -match "J[aeiou]ff" 
+"Jeeeeeeeeeeff" -match "J[aeiou]+ff" 
 
 
+"192" -match "[2]"
 
- "\\Server2\Share" -match "\\\\\w+\\\w+"
+"192" -match "[7]"
+
+"192" -match "\d{1,3}"
+
+
+
+"\\Server2\Share" -match "\\\\\w+\\\w+"
