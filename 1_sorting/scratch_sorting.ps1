@@ -1,9 +1,7 @@
 
-
 Get-ChildItem ./1_sorting -Hidden 
 
 Get-ChildItem  ./1_sorting/ -Include *.txt 
-
 
 Get-ChildItem ./1_sorting -Attributes
 
@@ -13,9 +11,7 @@ Write-Output "hello" ", world!"  $args
 
 Get-Help Get-FileHash -Examples
 
-
 get-help Add-Type -Examples
-
 
 $x = Read-Host "> enter the x!"
 
